@@ -3,8 +3,8 @@
 
 ## 安装
 ```
-$ yarn add vue-bus
-$ npm install vue-bus --save
+$ yarn add vue-link-bus
+$ npm install vue-link-bus --save
 ```
 
 ## 使用
