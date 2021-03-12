@@ -1,6 +1,6 @@
 {
   "name": "vue-link-bus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "实现组件销毁就注销事件",
   "main": "dist/vue-link-bus.common.js",
   "module": "dist/vue-link-bus.esm.js",
