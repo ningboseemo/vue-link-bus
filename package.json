@@ -1,0 +1,35 @@
+{
+  "name": "vue-link-bus",
+  "version": "1.0.0",
+  "description": "实现组件销毁就注销事件",
+  "main": "dist/vue-link-bus.common.js",
+  "module": "dist/vue-link-bus.esm.js",
+  "unpkg": "dist/vue-link-bus.js",
+  "jsdelivr": "dist/vue-link-bus.js",
+  "scripts": {
+    "build": "rimraf dist && rollup -c && uglifyjs dist/vue-link-bus.js -c -m --comments -o dist/vue-link-bus.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ningboseemo/vue-link-bus.git"
+  },
+  "keywords": [
+    "vue",
+    "bus",
+    "events"
+  ],
+  "author": "Chang Ningbo <1509321398@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ningboseemo/vue-link-bus/issues"
+  },
+  "homepage": "https://github.com/ningboseemo/vue-link-bus#readme",
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "buble": "^0.20.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.41.1",
+    "uglify-js": "^3.13.1"
+  }
+}
